@@ -1,4 +1,3 @@
-const { log } = require('console');
 
 function addToText(fileName,textToAdd){
     const a=require('fs');

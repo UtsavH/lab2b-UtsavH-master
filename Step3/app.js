@@ -22,6 +22,17 @@ console.log(validator.isEmail('utsavhudka2002@gmail.com'));
 const formattedDate = dayjs().format('YYYY-MM-DD HH:mm:ss');
 console.log(formattedDate);
 
+
+axios.get('https://api.example.com/data')
+  .then(function (response) {
+    // Handleing success
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    // Handleing error
+    console.error(error);
+  });
+
 //npm colors module
 console.log('Hello'.green);
 console.log('World!'.blue);
